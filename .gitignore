@@ -1,23 +1,148 @@
-# Python
-backend/.venv/
-__pycache__/
-*.pyc
-
-# Node
-frontend/node_modules/
-
-# Environment
-.env
-
-# Mac
+# =========================
+# OS Files
+# =========================
 .DS_Store
+Thumbs.db
 
-# VSCode
+# =========================
+# IDEs
+# =========================
 .vscode/
-
-# JetBrains IDEs
 .idea/
+*.iml
 
-# Build
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment Files
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Documentation
+# =========================
+docs/
+*.pdf
+*.doc
+*.docx
+
+# =========================
+# Python
+# =========================
+backend/.venv/
+.venv/
+venv/
+env/
+ENV/
+
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.coverage
+.coverage.*
+htmlcov/
+
 dist/
 build/
+
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# FastAPI
+.fastapi/
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# =========================
+# Node.js
+# =========================
+frontend/node_modules/
+node_modules/
+npm-cache/
+.npm/
+.pnpm-store/
+
+# =========================
+# React
+# =========================
+build/
+coverage/
+.eslintcache
+
+# =========================
+# Angular
+# =========================
+.angular/
+.angular/cache/
+dist/
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# JavaScript
+# =========================
+*.min.js.map
+
+# =========================
+# Java / Spring Boot
+# =========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+
+# =========================
+# Docker
+# =========================
+.docker/
+
+# =========================
+# Kubernetes
+# =========================
+*.kubeconfig
+
+# =========================
+# Terraform
+# =========================
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# =========================
+# Misc
+# =========================
+.cache/
+tmp/
+temp/
