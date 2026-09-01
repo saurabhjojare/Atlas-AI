@@ -70,3 +70,9 @@ Send a POST request to `http://127.0.0.1:8000` with a JSON body like this:
   "message": "Who bought the most expensive jewellery?"
 }
 ```
+
+## Custom Data
+
+Add your own data to the `data` folder.
+
+**Supported file formats:** `CSV` and `TXT`
