@@ -46,7 +46,7 @@ python -m pip install -r requirements.txt
 ## 6. Build Embeddings
 
 ```bash
-python -m scripts.index_data
+python -m scripts.create_embeddings
 ```
 
 ## 7. Start the Backend Server
