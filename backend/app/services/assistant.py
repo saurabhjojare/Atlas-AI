@@ -1,4 +1,4 @@
-from app.services.llm import generate_response
+from app.services.generate_response import generate_response
 from app.services.retrieval import retrieve
 
 def assistant(message: str) -> str:
