@@ -1,0 +1,31 @@
+customer_id,customer_name,item_name,price,purchase_date
+1,Amit Deshmukh,22K Gold Chain,185000,2026-01-12
+2,Neha Kulkarni,22K Gold Necklace,325000,2026-01-18
+3,Rahul Joshi,22K Gold Bracelet,145000,2026-01-25
+4,Priya Sharma,22K Gold Earrings,98000,2026-02-03
+5,Vikram Singh,Gold Ring,72000,2026-02-10
+6,Sneha Patil,22K Gold Necklace,285000,2026-02-17
+7,Karan Mehta,Gold Bracelet,115000,2026-02-24
+8,Rohit Verma,Gold Chain,165000,2026-03-02
+9,Anjali Nair,22K Gold Necklace Set,385000,2026-03-08
+10,Sachin Rao,Gold Ring,68000,2026-03-15
+11,Meera Iyer,Gold Earrings,92000,2026-03-21
+12,Arjun Kapoor,22K Gold Chain,210000,2026-03-28
+13,Pooja Jadhav,Gold Bangles,240000,2026-04-04
+14,Nitin Agarwal,Gold Bracelet,135000,2026-04-11
+15,Kavita Shah,Gold Earrings,85000,2026-04-18
+16,Abhishek Yadav,Gold Ring,65000,2026-04-25
+17,Deepali Joshi,Gold Pendant,78000,2026-05-02
+18,Manoj Kulkarni,22K Gold Chain,275000,2026-05-09
+19,Ritika Sinha,Gold Earrings,76000,2026-05-16
+20,Harsh Vardhan,Gold Ring,58000,2026-05-23
+21,Swati Mishra,Gold Bangles,195000,2026-05-30
+22,Aditya Patil,Gold Chain,155000,2026-06-06
+23,Nisha Gupta,Gold Pendant Set,105000,2026-06-13
+24,Sanjay Bhosale,Gold Bracelet,125000,2026-06-20
+25,Komal Desai,Gold Ring,62000,2026-06-27
+26,Ramesh Pawar,22K Gold Necklace,265000,2026-07-04
+27,Shweta Menon,Gold Earrings,88000,2026-07-11
+28,Yash Malhotra,Gold Chain,175000,2026-07-18
+29,Aarti Kulkarni,Gold Bangles,225000,2026-07-25
+30,Pranav Rao,22K Gold Bracelet,155000,2026-08-01

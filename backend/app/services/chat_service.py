@@ -1,27 +1,8 @@
-from app.services.retrieval.rag_service import RagService
-from app.services.llm_service import LLMService
+from app.services.llm import generate_response
+from app.services.retrieval import retrieve
 
-class ChatService:
+def chat(message: str) -> str:
+    documents = retrieve(message)
+    context = "\n".join(documents)
 
-    def __init__(self):
-
-        self.rag = RagService()
-        self.llm = LLMService()
-
-    def ask(self, question: str):
-
-        context_result = self.rag.retrieve(question)
-
-        prompt = f"""
-Use ONLY the provided context.
-
-Context:
-{context_result['context']}
-
-Question:
-{question}
-
-Answer:
-"""
-
-        return self.llm.generate(prompt)
+    return generate_response(message, context)
