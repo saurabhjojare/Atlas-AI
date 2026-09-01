@@ -72,6 +72,7 @@ pip-wheel-metadata/
 # ChromaDB
 # =========================
 chroma/
+embedded_data/
 
 # FastAPI
 .fastapi/

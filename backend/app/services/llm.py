@@ -10,5 +10,4 @@ def generate_response(message: str, context: str) -> str:
             }
         ],
     )
-
     return response["message"]["content"]

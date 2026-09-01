@@ -1,6 +1,6 @@
 import chromadb
 
-client = chromadb.PersistentClient(path="./chroma")
+client = chromadb.PersistentClient(path="./embedded_data")
 
 collection = client.get_or_create_collection(
     name="documents"
