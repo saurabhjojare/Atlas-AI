@@ -3,7 +3,7 @@ Instructions for setting up and running the frontend locally.
 ## 1. Install Node.js
 
 ```bash
-brew install node
+brew install node@24
 ```
 
 ## 2. Navigate to the Frontend Directory
